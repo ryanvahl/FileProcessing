@@ -1,0 +1,29 @@
+## Git
+- Create repo in GitHub
+- Copy clone link
+- Open file location in command line locally where you want project
+- Clone project here
+
+
+## Node
+- Create package.json 
+    - npm init -y
+
+## Entry Point
+- Create file index.js to be the entry point of the app. This "index.js" already is stated in the main property of the package.json file when npm is initialized with init, this is why you create index.js as entry point
+
+
+## Express
+- Install
+    - npm install express
+
+
+## Nodemon (Optional)
+- A package to automatically detect changes in files and restart Express server
+- Install
+    - npm install -g nodemon
+
+
+## Template Engine - EJS
+- Install
+    - npm install ejs
