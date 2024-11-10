@@ -10,8 +10,8 @@ const PORT = 3000;
 // '/' is the route you made for the client to use
 app.get('/', (req,res) => {
     // provide a response to client to render
-    res.send("Welcome");
-    console.log(req);
+    console.log(__dirname);
+    res.sendFile(__dirname + '/index.html');
 });
 
 // first argument to post is the URL path that needs to have a post request to
