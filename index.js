@@ -7,6 +7,7 @@ const PORT = 3000;
 
 // the '/' is the URL path the get method will respond to
 // request object (req) and response object (res) contains useful information about the request and response respectively
+// '/' is the route you made for the client to use
 app.get('/', (req,res) => {
     // provide a response to client to render
     res.send("Welcome");
@@ -14,8 +15,9 @@ app.get('/', (req,res) => {
 });
 
 // first argument to post is the URL path that needs to have a post request to
+// '/upload' is the route you made for the client to use
 app.post('/upload', (req,res) => {
-    res.send(req.method + "request sent.")
+    res.send(req.method + " request sent.")
 });
 
 //create instance of server
