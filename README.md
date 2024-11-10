@@ -14,7 +14,7 @@ Process files using Node and Express
 - Install
     - `npm install -g nodemon`
 - Use
-    - The keyword "nodemon" can be used to run the file that `package.json `is pointing to. In this case it's `index.js`
+    - The keyword "nodemon" can be used to run the file that `package.json ` that the main property is pointing to. In this case it's `index.js`
 
 
 ## Module express-fileupload
