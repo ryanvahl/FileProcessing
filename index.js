@@ -5,11 +5,17 @@ const app = express();
 // can get port number later by using variable
 const PORT = 3000;
 
+// the '/' is the URL path the get method will respond to
 // request object (req) and response object (res) contains useful information about the request and response respectively
 app.get('/', (req,res) => {
     // provide a response to client to render
     res.send("Welcome");
     console.log(req);
+});
+
+// first argument to post is the URL path that needs to have a post request to
+app.post('/upload', (req,res) => {
+    res.send(req.method + "request sent.")
 });
 
 //create instance of server
