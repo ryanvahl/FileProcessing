@@ -13,3 +13,5 @@ Process files using Node and Express
 - A package to automatically detect changes in files and restart Express server
 - Install
     - npm install -g nodemon
+- Use
+    - The keyword "nodemon" can be used to run the file that package.json is pointing to. In this case it's index.js
